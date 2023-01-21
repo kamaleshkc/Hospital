@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const index = () => {
+const Index = () => {
     const [open,setOpen]=useState(false);
     
   return (
@@ -94,7 +94,7 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
 
 
 
