@@ -3,11 +3,12 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          footer: '#006640 ',
+          footer: '#23669E ',
           footerHover: '#F47621',
           backToTop: '#37375F',
           // second: '#232020',
           body: '#F7F7F7',
+          red:'#ff0000',
           // first: '#F47621',
         },
         fontFamily: {
