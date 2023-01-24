@@ -1,6 +1,6 @@
 import React from "react";
 import Link  from "next/link";
-import Image from "next/image";
+
 import {
   AiOutlineInstagram,
   AiOutlineTwitter,
@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className="w-full text-sm">
       <div className="bg-footer grid grid-row-2">
-        
+        <div className="xl:container m-auto px-6 md:px-12 lg:px-6">
         <div className="container grid   sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-12 rounded-0 mt-5">
           <div className="grid-item  lg:col-span-3 md:col-span-4 sm:col-span-3 m-3">
             <h5 className="mb-3 text-white  font-inter ">Contact Us</h5>
@@ -112,14 +112,14 @@ const Footer = () => {
               Download our app
             </h5>
             <div className="flex">
-              <Image
+              <img
                 src="/images/footer/googleplay.png"
                 width={100}
                 height={30}
                 alt="google store"
                 className="mr-3 cursor-pointer"
               />
-              <Image
+              <img
                 src="/images/footer/applestore.jpg"
                 width={100}
                 height={30}
@@ -183,6 +183,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        </div>
+        
       </div>
       
     </footer>

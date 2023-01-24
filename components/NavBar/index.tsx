@@ -8,8 +8,9 @@ const Index = () => {
             <div className="xl:container m-auto px-6 md:px-12 lg:px-6">
                 <div className="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0 lg:py-5">
                     <div className="w-full items-center flex justify-between lg:w-auto">
-                        <a className="relative z-10 text-red font-medium" href="#" aria-label="logo">
-                             Madan Bhandari Hospital and Trama Center
+                        <a className="flex z-10 text-red font-medium" href="#" aria-label="logo">
+                            <img src="emblemofNepal.svg"  width={50}height={50} className="flex justify-between item-center"></img>
+                             <div className='flex items-center m-auto text-center ml-2'>मदन भण्डारी होस्पितल अस्पताल र  ट्रमा  सेन्टर </div>
                         </a>
                         {open ?<label onClick={()=>setOpen(!open)} htmlFor="hbr" className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
                             <div aria-hidden="true" className="m-auto h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
