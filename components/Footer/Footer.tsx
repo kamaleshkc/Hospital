@@ -64,79 +64,43 @@ const Footer = () => {
             </Link>
           </div>
           <div className="grid-item  lg:col-span-2 md:col-span-4 sm:col-span-3 m-3">
-            <h5 className="mb-3 text-white font-inter text-xl">Links</h5>
+            <h5 className="mb-3 text-white font-inter text-xl">Useful Links</h5>
             <Link legacyBehavior href="/about">
               <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
-                About
+                हाम्रो बारेमा 
               </a>
             </Link>
             <Link legacyBehavior href="/seller-benifits">
               <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
-                Patients  Benifits
+                अर्थ मन्त्रालय
               </a>
             </Link>
-            <Link legacyBehavior href="/mobile-app">
-              <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
-                Mobile App
-              </a>
-            </Link>
+            
             <Link legacyBehavior href="/career">
               <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
-                Career
+                स्वास्थ्य तथा जनसंख्या मन्त्रालय
+              </a>
+            </Link>
+            <Link legacyBehavior href="/personal-info">
+              <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
+                 कानून न्याय तथा संसदीय मामिला मन्त्रालय
               </a>
             </Link>
           </div>
           <div className="grid-item  lg:col-span-2 md:col-span-2 sm:col-span-2 m-3">
             <h5 className="mb-3 text-white font-inter  text-xl">
-              My Account
+              Location
             </h5>
-            <Link legacyBehavior href="/personal-info">
-              <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
-                Personal Info
-              </a>
-            </Link>
             
-            <Link legacyBehavior href="/statement">
-              <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
-                Statement
-              </a>
-            </Link>
-            <Link legacyBehavior href="/wish">
-              <a className="block text-gray-200 hover:text-footerHover font-robo  my-1">
-                Wishlist
-              </a>
-            </Link>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.824865958635!2d85.32589074049072!3d27.695473553897944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1994769ac19f%3A0xd15dddabb04dbed!2sCivil%20Service%20Hospital%20of%20Nepal!5e0!3m2!1sen!2snp!4v1674650219162!5m2!1sen!2snp" width="300" height="200" className="b-0" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            
           </div>
           <div className="grid-item lg:col-span-3 md:col-span-5 sm:col-span-6 m-3 mb-5 ">
-            <h5 className="mb-3 text-white font-inter text-xl">
-              Download our app
-            </h5>
-            <div className="flex">
-              <img
-                src="/images/footer/googleplay.png"
-                width={100}
-                height={30}
-                alt="google store"
-                className="mr-3 cursor-pointer"
-              />
-              <img
-                src="/images/footer/applestore.jpg"
-                width={100}
-                height={30}
-                alt="apple store"
-                className="mx-2 cursor-pointer"
-              />
-            </div>
-            <div className="flex mt-2 text-white">
-              <input
-                type="email"
-                className="bg-white p-2 my-4 rounded-l-md text-sm border-1 border-slate-500"
-                placeholder="Email address"
-              ></input>
-              <button className="bg-footerHover p-2 my-4 rounded-r-md text-sm">
-                Subscribe
-              </button>
-            </div>
+            
+            
+           
           </div>
         </div>
         <div className="my-3 mb-5 px-4">
@@ -173,13 +137,7 @@ const Footer = () => {
                   </a>
                 </Link>
               </li>
-              <li className="mx-2">
-                <Link legacyBehavior href="https://www.facebook.com/reecharger/">
-                  <a className="cursor-pointer hover:text-footerHover" target="_blank">
-                    <AiOutlineGooglePlus size={25} />
-                  </a>
-                </Link>
-              </li>
+              
             </ul>
           </div>
         </div>

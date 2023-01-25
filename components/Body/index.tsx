@@ -1,3 +1,6 @@
+
+import Crousal from 'components/Crousal'
+import Posts from 'components/Posts'
 import React from 'react'
 
 const index = () => {
@@ -33,7 +36,10 @@ const index = () => {
                 <img src="labor room.jpg"  width={500}height={500} className="object-cover"></img>
                 </div>
             </div>
+            <Crousal/>
+            <Posts/>
             </div>
+            
         </div>
   )
 }
