@@ -93,7 +93,7 @@ const Footer = () => {
             </h5>
             
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.824865958635!2d85.32589074049072!3d27.695473553897944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1994769ac19f%3A0xd15dddabb04dbed!2sCivil%20Service%20Hospital%20of%20Nepal!5e0!3m2!1sen!2snp!4v1674650219162!5m2!1sen!2snp" width="300" height="200" className="b-0" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.824865958635!2d85.32589074049072!3d27.695473553897944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1994769ac19f%3A0xd15dddabb04dbed!2sCivil%20Service%20Hospital%20of%20Nepal!5e0!3m2!1sen!2snp!4v1674650219162!5m2!1sen!2snp" width="300" height="200" className="b-0"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             
             
           </div>
