@@ -2,7 +2,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>Croud</div>
+    <div>index</div>
   )
 }
 

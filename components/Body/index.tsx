@@ -1,11 +1,14 @@
 
-import Crousal from 'components/Crousal'
+
+
 import Posts from 'components/Posts'
 import React from 'react'
+import {sliders} from '../../data/posts'
 
-const index = () => {
+export default function Body  ()  {
   return (
     <div className="container mx-auto px-6 py-16 pt-28 text-center">
+   
             <div className="mx-auto max-w-lg">
             <h1 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">अस्पतालको इतिहास</h1>
 
@@ -16,7 +19,7 @@ const index = () => {
 
             <div className="mx-auto mt-28 max-w-screen-xl">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
+                {/* <div className="col-span-1 flex items-center justify-center md:col-span-2 lg:col-span-1">
                   <img src="hospital.jpg"  width={500} height={500} className="object-cover" ></img>
                 </div>
 
@@ -34,9 +37,9 @@ const index = () => {
 
                 <div className="col-span-2 flex items-center justify-center md:col-span-3 lg:col-span-1">
                 <img src="labor room.jpg"  width={500}height={500} className="object-cover"></img>
-                </div>
+                </div> */}
             </div>
-            <Crousal/>
+            
             <Posts/>
             </div>
             
@@ -44,4 +47,3 @@ const index = () => {
   )
 }
 
-export default index

@@ -26,13 +26,11 @@ const Index = () => {
                         
                         
                         }
-                        
-
-                        
+                                              
 
                     </div>
                     { open ? <div className='min-w-100'>
-                 <div className="flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0 mb-8 ">
+                 <div className="flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0 mb-8 mt-6 ">
                     <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-black-400 lg:mx-6 " href="#" >Home</a>
                     <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6 " href="#">About us</a>
                     <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6 " href="#">Department</a>

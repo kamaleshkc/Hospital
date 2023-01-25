@@ -3,7 +3,7 @@ import React from 'react'
 const index = () => {
   return (
     <div>
-        <h1 className=''>Posts</h1>
+        
         <div className="pt-3 pb-4 ">
                         
                         <a href="#" className="block bg-white py-3 border-t pl-8">
@@ -37,6 +37,7 @@ const index = () => {
                             <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing <br/> dolor sit sit elo  amet consectetur adipisicin elit....</p>
                         </a>
                     </div>
+                    
     </div>
   )
 }
