@@ -1,9 +1,9 @@
 
 
 
+import Cards from 'components/Cards'
 import Posts from 'components/Posts'
 import React from 'react'
-import {sliders} from '../../data/posts'
 
 export default function Body  ()  {
   return (
@@ -39,8 +39,14 @@ export default function Body  ()  {
                 <img src="labor room.jpg"  width={500}height={500} className="object-cover"></img>
                 </div> */}
             </div>
-            
-            <Posts/>
+            <h1 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">सूचनाहरू</h1>
+                <div>
+                   <Posts/>
+                   <h1 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">स्टाफ</h1>
+                   <Cards/>  
+                   
+                </div>
+           
             </div>
             
         </div>

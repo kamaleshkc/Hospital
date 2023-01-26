@@ -2,41 +2,52 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>
-       <nav  className="container mx-auto p-6 lg:flex lg:items-center lg:justify-between">
-            <div className="flex items-center justify-between">
-            <div>
-                <a className="text-2xl font-bold text-gray-800 hover:text-gray-700 dark:text-white dark:hover:text-gray-300 lg:text-3xl" href="#">Brand</a>
-            </div>
-
-           
-            <div className="flex lg:hidden">
-                <button  type="button" className="text-gray-500 hover:text-gray-600 focus:text-gray-600 focus:outline-none dark:text-gray-200 dark:hover:text-gray-400 dark:focus:text-gray-400" aria-label="toggle menu">
-                <svg x-show="!isOpen" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-                </svg>
-
-                <svg x-show="isOpen" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-                </button>
-            </div>
-            </div>
-
-           
-            <div  className="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" >
-            <div className="flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">
-                <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6" href="#">Home</a>
-                <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6" href="#">Components</a>
-                <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6" href="#">Pricing</a>
-                <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6" href="#">Contact</a>
-                <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6" href="#">FAQ</a>
-            </div>
-            </div>
-
-            <a className="mt-4 block h-10 transform rounded-md border px-5 py-2 text-center text-sm capitalize text-gray-700 transition-colors duration-300 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 lg:mt-0 lg:w-auto" href="#"> Contact Us </a>
+    <div className='bg-white-200 '>
+       <div>
+       <div className="header-top flex justify-between xl:container m-auto px-6 md:px-12 lg:px-6 ">
+        <div className="flex gap-6 md:py-3 md:gap-0 lg:py-5">
+            <ul className='hidden sm:flex '>
+                
+                <li className='flex'>
+                    <a href="#" className='flex'>
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.7886 16.8333C6.90217 16.8458 0.157383 10.0208 0.166758 1.21146C0.166758 0.635416 0.633425 0.166666 1.20842 0.166666H3.95842C4.47405 0.166666 4.91259 0.545833 4.98863 1.05625C5.16999 2.28026 5.52605 3.47192 6.04593 4.59479L6.15322 4.82604C6.22529 4.98166 6.24079 5.15754 6.19705 5.32337C6.15332 5.48919 6.05308 5.63455 5.91363 5.73437C5.06155 6.34271 4.73655 7.56667 5.40009 8.52083C6.23549 9.72222 7.27816 10.7652 8.47926 11.601C9.43447 12.2635 10.6584 11.9385 11.2657 11.0875C11.3654 10.9476 11.5109 10.847 11.677 10.8031C11.843 10.7591 12.0192 10.7746 12.1751 10.8469L12.4053 10.9531C13.5282 11.474 14.7199 11.8302 15.9438 12.0115C16.4543 12.0875 16.8334 12.526 16.8334 13.0427V15.7917C16.8334 15.9285 16.8064 16.0641 16.754 16.1905C16.7016 16.317 16.6248 16.4319 16.528 16.5286C16.4311 16.6253 16.3162 16.7021 16.1897 16.7543C16.0632 16.8066 15.9276 16.8335 15.7907 16.8333H15.7886Z" fill="#265CC0"></path>
+                        </svg>    
+                        +977-698799, 97987956                            
+                    </a>
+                </li>
+                <li>
+                    <a href="#" className='flex ml-4'>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.75 6.25V3.01758C18.75 2.85339 18.7176 2.69081 18.6547 2.53914C18.5919 2.38746 18.4997 2.24966 18.3836 2.13359L16.616 0.366016C16.3816 0.131703 16.0638 5.00637e-05 15.7324 0L6.25 0C5.91848 0 5.60054 0.131696 5.36612 0.366117C5.1317 0.600537 5 0.918479 5 1.25V18.75C5 19.0815 5.1317 19.3995 5.36612 19.6339C5.60054 19.8683 5.91848 20 6.25 20H18.75C19.0815 20 19.3995 19.8683 19.6339 19.6339C19.8683 19.3995 20 19.0815 20 18.75V7.5C20 7.16848 19.8683 6.85054 19.6339 6.61612C19.3995 6.3817 19.0815 6.25 18.75 6.25ZM11.25 16.875C11.25 17.0408 11.1842 17.1997 11.0669 17.3169C10.9497 17.4342 10.7908 17.5 10.625 17.5H9.375C9.20924 17.5 9.05027 17.4342 8.93306 17.3169C8.81585 17.1997 8.75 17.0408 8.75 16.875V15.625C8.75 15.4592 8.81585 15.3003 8.93306 15.1831C9.05027 15.0658 9.20924 15 9.375 15H10.625C10.7908 15 10.9497 15.0658 11.0669 15.1831C11.1842 15.3003 11.25 15.4592 11.25 15.625V16.875ZM11.25 11.875C11.25 12.0408 11.1842 12.1997 11.0669 12.3169C10.9497 12.4342 10.7908 12.5 10.625 12.5H9.375C9.20924 12.5 9.05027 12.4342 8.93306 12.3169C8.81585 12.1997 8.75 12.0408 8.75 11.875V10.625C8.75 10.4592 8.81585 10.3003 8.93306 10.1831C9.05027 10.0658 9.20924 10 9.375 10H10.625C10.7908 10 10.9497 10.0658 11.0669 10.1831C11.1842 10.3003 11.25 10.4592 11.25 10.625V11.875ZM16.25 16.875C16.25 17.0408 16.1842 17.1997 16.0669 17.3169C15.9497 17.4342 15.7908 17.5 15.625 17.5H14.375C14.2092 17.5 14.0503 17.4342 13.9331 17.3169C13.8158 17.1997 13.75 17.0408 13.75 16.875V15.625C13.75 15.4592 13.8158 15.3003 13.9331 15.1831C14.0503 15.0658 14.2092 15 14.375 15H15.625C15.7908 15 15.9497 15.0658 16.0669 15.1831C16.1842 15.3003 16.25 15.4592 16.25 15.625V16.875ZM16.25 11.875C16.25 12.0408 16.1842 12.1997 16.0669 12.3169C15.9497 12.4342 15.7908 12.5 15.625 12.5H14.375C14.2092 12.5 14.0503 12.4342 13.9331 12.3169C13.8158 12.1997 13.75 12.0408 13.75 11.875V10.625C13.75 10.4592 13.8158 10.3003 13.9331 10.1831C14.0503 10.0658 14.2092 10 14.375 10H15.625C15.7908 10 15.9497 10.0658 16.0669 10.1831C16.1842 10.3003 16.25 10.4592 16.25 10.625V11.875ZM16.25 7.5H7.5V2.5H13.75V4.375C13.75 4.54076 13.8158 4.69973 13.9331 4.81694C14.0503 4.93415 14.2092 5 14.375 5H16.25V7.5ZM2.5 5H1.25C0.918479 5 0.600537 5.1317 0.366117 5.36612C0.131696 5.60054 0 5.91848 0 6.25L0 18.75C0 19.0815 0.131696 19.3995 0.366117 19.6339C0.600537 19.8683 0.918479 20 1.25 20H2.5C2.83152 20 3.14946 19.8683 3.38388 19.6339C3.6183 19.3995 3.75 19.0815 3.75 18.75V6.25C3.75 5.91848 3.6183 5.60054 3.38388 5.36612C3.14946 5.1317 2.83152 5 2.5 5Z" fill="#444444"></path>
+                        </svg>    
+                        info @ amit.gov.np                            
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div className='flex'>
             
-        </nav>
+            <ul className='flex gap-6 md:py-3 md:gap-0 lg:py-5'>
+                
+                <li className='flex'>
+                    <a href="/en">
+                        English
+                    </a>
+                </li>
+                <li>
+                      |
+                </li>
+                <li className=''>
+                    <a href="/np">
+                        Nepali
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+       </div>
     </div>
      
   )

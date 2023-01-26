@@ -45,7 +45,7 @@ export const Carousel= ()=> {
    
 
 
-<div className='max-w-[1900px] h-[780px] w-full m-auto py-16 px-4 relative group'>
+<div className='w-full h-[780px]  m-0   relative group'>
 <div
   style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
   className='w-full h-full rounded-none bg-center bg-cover duration-500'

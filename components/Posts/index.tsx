@@ -4,8 +4,8 @@ const index = () => {
   return (
     <div>
         
-        <div className="pt-3 pb-4 ">
-                        
+       
+        <div className="pt-8 pb-4 ">        
                         <a href="#" className="block bg-white py-3 border-t pl-8">
                             <div className="px-4 py-2 flex  justify-end">                                
                                 <span className=" text-sm font-semibold text-gray-600">21-2-2020</span>

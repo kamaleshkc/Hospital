@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import NavBar from "components/NavBar/index"
 import Body from "components/Body/index"
 import { Carousel } from "components/Carousel";
+import Header from "components/Header";
 const index = () => {
   
    
@@ -14,10 +15,12 @@ const index = () => {
       
       }}
     >
+      <Header/>
       <NavBar></NavBar>
       <Carousel />
 
       <Body></Body>
+      
      <Footer></Footer>
     </div>
   );
