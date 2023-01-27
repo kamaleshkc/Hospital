@@ -1,16 +1,25 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import useWindowSize from 'utils/useWindowSize';
 
 const Index = () => {
     const [open,setOpen]=useState(false);
+    const { width } = useWindowSize()
+
+    useEffect(() => {  
+        if(width>1023){
+            setOpen(false);
+        }
+    });
     
+
   return (
     <nav className=" z-20 w-full bg-white/90 dark:bg-gray-900/80 backdrop-blur navbar shadow-2xl shadow-gray-600/5 border-b border-gray-100 dark:border-gray-800 peer-checked:navbar-active dark:shadow-none">
             <div className="xl:container m-auto px-6 md:px-12 lg:px-6 ">
                 <div className="flex flex-wrap items-center justify-between gap-0 md:py-3 md:gap-0 lg:py-5">
                     <div className="w-full items-center flex justify-between lg:w-auto">
                         <a className="flex z-10 text-red font-medium" href="#" aria-label="logo">
-                            <img src="emblemofNepal.svg"  width={60} className="flex justify-between item-center text-left"></img>
-                             <div className='flex items-center m-auto text-left '>मदन भण्डारी होस्पितल अस्पताल र  ट्रमा  सेन्टर <br/> Madan Bhandari Hospital and Trauma Center </div>
+                            <img src="emblemofNepal.svg"  width={50}height={50} className="flex justify-between item-center text-left"></img>
+                             <div className='flex items-center m-auto text-left ml-2'>मदन भण्डारी होस्पितल अस्पताल र  ट्रमा  सेन्टर <br/> Madan Bhandari Hospital and Trauma Center </div>
                         </a>
                         {open ?<label onClick={()=>setOpen(!open)} htmlFor="hbr" className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
                             <div aria-hidden="true" className="m-auto h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
@@ -94,6 +103,7 @@ const Index = () => {
 }
 
 export default Index
+
 
 
 
