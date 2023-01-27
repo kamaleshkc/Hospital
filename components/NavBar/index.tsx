@@ -19,7 +19,7 @@ const Index = () => {
                     <div className="w-full items-center flex justify-between lg:w-auto">
                         <a className="flex z-10 text-red font-medium" href="#" aria-label="logo">
                             <img src="emblemofNepal.svg"  width={50}height={50} className="flex justify-between item-center text-left"></img>
-                             <div className='flex items-center m-auto text-left ml-2'>मदन भण्डारी होस्पितल अस्पताल र  ट्रमा  सेन्टर <br/> Madan Bhandari Hospital and Trauma Center </div>
+                             <div className='flex items-center m-auto text-left ml-2 text-sm'>मदन भण्डारी होस्पितल अस्पताल र  ट्रमा  सेन्टर <br/> Madan Bhandari Hospital and Trauma Center </div>
                         </a>
                         {open ?<label onClick={()=>setOpen(!open)} htmlFor="hbr" className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
                             <div aria-hidden="true" className="m-auto h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
