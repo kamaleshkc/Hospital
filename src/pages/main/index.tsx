@@ -18,7 +18,6 @@ const index = () => {
       <Header/>
       <NavBar></NavBar>
       <Carousel />
-
       <Body></Body>
       
      <Footer></Footer>

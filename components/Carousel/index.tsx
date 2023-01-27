@@ -41,6 +41,8 @@ export const Carousel= ()=> {
     setCurrentIndex(slideIndex);
   };
 
+  
+
   return (
    
 

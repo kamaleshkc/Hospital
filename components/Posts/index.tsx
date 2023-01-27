@@ -11,14 +11,14 @@ const index = () => {
                                 <span className=" text-sm font-semibold text-gray-600">21-2-2020</span>
                             </div>
                             <span className="text-sm font-semibold text-gray-900 px-4 py-2 flex">नि:शुल्क स्वास्थ्य शिविर सम्पन्न ।</span>
-                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing <br/> dolor sit sit elo  amet consectetur adipisicin elit....</p>
+                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing dolor sit sit elo  amet consectetur adipisicin elit....</p>
                         </a>
                         <a href="#" className="block bg-white py-3 border-t pl-8">
                             <div className="px-4 py-2 flex  justify-end">                               
                                 <span className="text-sm font-semibold text-gray-600">21-2-2020</span>
                             </div>
                             <span className="text-sm font-semibold text-gray-900 px-4 py-2 flex">निवेदक रविप्रकाश शर्मा समेतको रिट निवेदनमा सम्मानीत सर्वोच्च अदालतबाट जारी भएको आदेशको पूर्णपाठ</span>
-                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing <br/> dolor sit sit elo  amet consectetur adipisicin elit....</p>
+                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing  dolor sit sit elo  amet consectetur adipisicin elit....</p>
                         </a>
                         <a href="#" className=" block bg-white py-3 border-t pl-8">
                             <div className="px-4 py-2 flex  justify-end">
@@ -26,7 +26,7 @@ const index = () => {
                                 <span className="text-sm font-semibold text-gray-600">21-2-2020</span>
                             </div>
                             <span className="text-sm font-semibold text-gray-900 px-4 py-2 flex">प्रेस विज्ञप्ती </span>
-                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing <br/> dolor sit sit elo  amet consectetur adipisicin elit....</p>
+                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing  dolor sit sit elo  amet consectetur adipisicin elit....</p>
                         </a>
                         <a href="#" className="block bg-white py-3 border-t pl-8">
                             <div className="px-4 py-2 flex  justify-end">
@@ -34,7 +34,7 @@ const index = () => {
                                 <span className="text-sm font-semibold text-gray-600">21-2-2020</span>
                             </div>
                             <span className="text-sm font-semibold text-gray-900 px-4 py-2 flex">प्रेस विज्ञप्ती </span>
-                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing <br/> dolor sit sit elo  amet consectetur adipisicin elit....</p>
+                            <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing  dolor sit sit elo  amet consectetur adipisicin elit....</p>
                         </a>
                     </div>
                     

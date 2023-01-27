@@ -39,10 +39,27 @@ export default function Body  ()  {
                 <img src="labor room.jpg"  width={500}height={500} className="object-cover"></img>
                 </div> */}
             </div>
+            <div>
             <h1 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">सूचनाहरू</h1>
+
+                      <div className="mx-auto mt-6 flex justify-center">
+                      <span className="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
+                      <span className="mx-1 inline-block h-1 w-3 rounded-full bg-blue-500"></span>
+                      <span className="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
+                      </div>
+                  </div>
+           
                 <div>
                    <Posts/>
-                   <h1 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">स्टाफ</h1>
+                   <div>
+                      <h1 className="text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl ">Our Team</h1>
+
+                      <div className="mx-auto mt-6 flex justify-center">
+                      <span className="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
+                      <span className="mx-1 inline-block h-1 w-3 rounded-full bg-blue-500"></span>
+                      <span className="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
+                      </div>
+                  </div>
                    <Cards/>  
                    
                 </div>
