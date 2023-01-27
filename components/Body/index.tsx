@@ -1,8 +1,4 @@
-
-
-
 import Cards from 'components/Cards'
-import SubNav from 'components/NavBar/subNav'
 import Posts from 'components/Posts'
 import React from 'react'
 
