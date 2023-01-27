@@ -37,7 +37,14 @@ const index = () => {
                             <p className="px-4 py-2 text-sm font-semibold text-gray-700 text-left">Lorem ipsum dolor sit amet consectetur adipisicing  dolor sit sit elo  amet consectetur adipisicin elit....</p>
                         </a>
                     </div>
-                    
+                    <button
+                            className="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 hover:bg-footer hover:text-white"
+                        >
+                            <span className="pr-1 font-semibold flex-1">Read more</span>
+                            <span>
+                            
+                            </span>
+                    </button>         
     </div>
   )
 }

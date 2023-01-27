@@ -3,10 +3,10 @@ import React from 'react'
 const index = () => {
   return (
 	<div className='flex'>
-			<div className=' min-w-100 flex flex-col md:flex-row text-left' >
-	<div className="m-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+			<div className=' min-w-100 flex flex-col lg:flex-row text-left' >
+	<div className="mt-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
 		<a href="#">
-			<img className="rounded-t-lg p-4" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="staff image"/>
+			<img className="rounded-t-lg p-2" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="staff image"/>
         </a>
 			<div className="px-5 pb-5">
 				<a href="#">
@@ -19,9 +19,9 @@ const index = () => {
 			</div>
 	</div>
 
-	<div className=" m-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+	<div className=" mt-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
 		<a href="#">
-			<img className="rounded-t-lg p-4" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="staff image"/>
+			<img className="rounded-t-lg p-2" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="staff image"/>
         </a>
 			<div className="px-5 pb-5">
 				<a href="#">
@@ -34,9 +34,9 @@ const index = () => {
 			</div>
 	</div>
 
-	<div className=" m-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+	<div className=" mt-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
 		<a href="#">
-			<img className="rounded-t-lg p-4" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="staff image"/>
+			<img className="rounded-t-lg p-2" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="staff image"/>
         </a>
 			<div className="px-5 pb-5">
 				<a href="#">
