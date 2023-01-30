@@ -49,7 +49,7 @@ export default function Body  ()  {
                 <div>
                    <Posts/>
                    <div>
-                      <h1 className="text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl ">Our Team</h1>
+                      <h1 className="text-3xl mt-8 font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl ">Our Team</h1>
 
                       <div className="mx-auto mt-6 flex justify-center">
                       <span className="inline-block h-1 w-40 rounded-full bg-blue-500"></span>

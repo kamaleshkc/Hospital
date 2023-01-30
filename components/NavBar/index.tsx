@@ -16,10 +16,15 @@ const Index = () => {
     <nav className=" z-20 w-full bg-white/90 dark:bg-gray-900/80 backdrop-blur navbar shadow-2xl shadow-gray-600/5 border-b border-gray-100 dark:border-gray-800 peer-checked:navbar-active dark:shadow-none">
             <div className="xl:container m-auto px-6 md:px-12 lg:px-6 ">
                 <div className="flex flex-wrap items-center justify-between gap-0 md:py-3 md:gap-0 lg:py-5">
-                    <div className="w-full items-center flex justify-between lg:w-auto">
+                    <div className="w-full items-center flex justify-between lg:w-auto text-sm xl:text-base">
                         <a className="flex z-10 text-red font-medium" href="#" aria-label="logo">
                             <img src="emblemofNepal.svg"  width={50}height={50} className="flex justify-between item-center text-left"></img>
-                             <div className='flex items-center m-auto text-left ml-2 text-sm'>मदन भण्डारी होस्पितल अस्पताल र  ट्रमा  सेन्टर <br/> Madan Bhandari Hospital and Trauma Center </div>
+                             <div className='flex  flex-col m-auto text-left ml-2'>
+                            
+                                <p>मदन भण्डारी होस्पितल अस्पताल र  ट्रमा  सेन्टर  </p>
+                                <p> Madan Bhandari Hospital and Trauma Center</p>
+                            </div>
+                            
                         </a>
                         {open ?<label onClick={()=>setOpen(!open)} htmlFor="hbr" className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
                             <div aria-hidden="true" className="m-auto h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
@@ -34,14 +39,15 @@ const Index = () => {
                         </label>
                         
                         
+                        
                         }
                                               
 
                     </div>
                     { open ? <div className='min-w-100'>
                  <div className="flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0 mb-8 mt-6 ">
-                    <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-black-400 lg:mx-6 " href="#" >Home</a>
-                    <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6 " href="#">About us</a>
+                    <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-black-400 lg:mx-6 " href="main" >Home</a>
+                    <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6 " href="aboutus">About us</a>
                     <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6 " href="#">Department</a>
                     <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6 " href="#">Health packages</a>
                     <a className="text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-6 " href="#">Facilities and service</a>
@@ -54,12 +60,12 @@ const Index = () => {
                         <div className="text-gray-600 dark:text-gray-300 ">
                             <ul className="space-y-6 tracking-wide font-medium text-base lg:text-sm lg:flex lg:space-y-0">
                                 <li>
-                                    <a href="#" className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight ">
+                                    <a href="main" className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight ">
                                         <span>Home</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
+                                    <a href="/aboutus" className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
                                         <span>About us</span>
                                     </a>
                                 </li>

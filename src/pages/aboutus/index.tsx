@@ -1,5 +1,5 @@
+import About from 'components/About'
 import Body from 'components/Body'
-import { Carousel } from 'components/Carousel'
 import Content from 'components/Content'
 import Footer from 'components/Footer/Footer'
 import Header from 'components/Header'
@@ -11,7 +11,7 @@ const index = () => {
     <div>
        <Header/>
        <NavBar/>
-       <Content/>
+       <About/>
        <Footer/>
 
 
