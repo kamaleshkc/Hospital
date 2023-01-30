@@ -4,20 +4,20 @@ import Link from "next/link";
 
 const index = () => {
 
-  const [post,setPost]=useState();
+  // const [post,setPost]=useState();
 
 
   
-  useEffect(() => {
+  // useEffect(() => {
    
-    fetch('http://localhost:4000/post',{ headers: {
+  //   fetch('http://localhost:4000/post',{ headers: {
       
-    }})
-      .then((res) => res.json())
-      .then((data) => {      
-       setPost(data)
-      })
-  }, [])
+  //   }})
+  //     .then((res) => res.json())
+  //     .then((data) => {      
+  //      setPost(data)
+  //     })
+  // }, [])
   
  
   
