@@ -43,9 +43,9 @@ console.log(post)
       </div>
 
       <div className="flex  items-center w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-        <a href="#" className="flex items-center mt-6 mb-6 mr-6"></a>
+       
 
-        <div>
+      <Link href="/posts">
           <h3 className="text-lg font-bold text-blue-500 sm:text-xl md:text-2xl">
             नि:शुल्क स्वास्थ्य शिविर सम्पन्न ।
           </h3>
@@ -55,13 +55,13 @@ console.log(post)
             fields.I tried mine using exactly what you instructed but its not
             working!!.
           </p>
-        </div>
+        </Link>
       </div>
 
       <div className="flex  items-center w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
         <a href="#" className="flex items-center mt-6 mb-6 mr-6"></a>
 
-        <div>
+        <Link href="/posts">
           <h3 className="text-lg font-bold text-blue-500 sm:text-xl md:text-2xl">
             नि:शुल्क स्वास्थ्य शिविर सम्पन्न ।
           </h3>
@@ -71,7 +71,7 @@ console.log(post)
             fields.I tried mine using exactly what you instructed but its not
             working!!.
           </p>
-        </div>
+        </Link>
       </div>
 
       {/* <div className="pt-8 pb-4 ">        
