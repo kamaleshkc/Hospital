@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function  index  () {
+const index = () => {
   return (
 
     <div className='w-screen  flex justify-center '>
@@ -62,6 +62,8 @@ export default function  index  () {
             </p>
           </div>
         </form>
-    </div>)}
+    </div>
+    )}
+    export default index;
 
 

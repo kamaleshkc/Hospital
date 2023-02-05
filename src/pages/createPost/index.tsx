@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function createPost  ()  {
+const index = () => {
  
 
   return (
@@ -71,6 +71,8 @@ export default function createPost  ()  {
     </div>
     </div>
    
-  );
-};
+  )
+}
+export default index;
+
 
