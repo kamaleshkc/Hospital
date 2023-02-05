@@ -4,20 +4,20 @@ import Link from "next/link";
 
 const index = () => {
 
-  // const [post,setPost]=useState();
+  const [post,setPost]=useState();
 
-
+console.log(post)
   
-  // useEffect(() => {
+  useEffect(() => {
    
-  //   fetch('http://localhost:4000/post',{ headers: {
+    fetch('http://localhost:4000/post',{ headers: {
       
-  //   }})
-  //     .then((res) => res.json())
-  //     .then((data) => {      
-  //      setPost(data)
-  //     })
-  // }, [])
+    }})
+      .then((res) => res.json())
+      .then((data) => {      
+       setPost(data)
+      })
+  }, [])
   
  
   
@@ -117,14 +117,7 @@ const index = () => {
   );
 };
 
-export async function getServerSideProps() {
-  // Fetch data from external API
-  const res = await fetch(`localhost:4000/post`)
-  const data = await res.json()
 
-  // Pass data to the page via props
-  return { props: { data } }
-}
 
 
 
