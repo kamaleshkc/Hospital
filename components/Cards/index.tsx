@@ -8,8 +8,8 @@ const index = () => {
         <div className="mt-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
             <Image
-              className="rounded-t-lg p-2"
-              width={200}
+              className="w-full rounded-t-lg p-2"
+              width={800}
               height={10}
               src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="staff image"
@@ -34,8 +34,8 @@ const index = () => {
         <div className=" mt-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
             <Image
-              className="rounded-t-lg p-2"
-              width={200}
+              className="w-full rounded-t-lg p-2"
+              width={800}
               height={10}
               src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="staff image"
@@ -60,8 +60,8 @@ const index = () => {
         <div className=" mt-4 bg-white shadow-md rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
             <Image
-              className="rounded-t-lg p-2"
-              width={200}
+              className="w-full rounded-t-lg p-2"
+             width={800}
               height={10}
               src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="staff image"
