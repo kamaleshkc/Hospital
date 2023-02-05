@@ -3,7 +3,7 @@ import useWindowSize from 'utils/useWindowSize';
 
 const Index = () => {
     const [open,setOpen]=useState(false);
-    const { width } = useWindowSize()
+    const { width } = useWindowSize();
 
     useEffect(() => {  
         if(width>1023){
