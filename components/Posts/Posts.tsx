@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import Link from "next/link";
 
 
-const index = () => {
+const Posts = () => {
 
 //   const [post,setPost]=useState();
 
@@ -121,4 +121,4 @@ const index = () => {
 
 
 
-export default index;
+export default Posts;

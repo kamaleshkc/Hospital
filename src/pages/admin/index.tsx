@@ -3,7 +3,7 @@ import React from 'react'
 const index = () => {
   return (
 
-    <div className='w-screen  flex justify-center '>
+    <div className=" flex justify-center items:center" style={{height:"100vh",alignItems:"center"}}>
         <form>
           <div className="flex flex-row items-center justify-center lg:justify-start">
             <p className="text-lg mb-0 mr-4">Sign in with</p>

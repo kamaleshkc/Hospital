@@ -1,5 +1,5 @@
 import Cards from 'components/Cards'
-import Posts from 'components/Posts'
+import Posts from 'components/Posts/Posts'
 import React from 'react'
 
 export default function Body  ()  {
