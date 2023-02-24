@@ -3,6 +3,10 @@ import CreatePost from "../Posts/CreatePost";
 
 export default function  index () {
   return (
+
+
+
+    
     <div>
       <main
         className="min-h-screen w-full bg-gray-100 text-gray-700 "

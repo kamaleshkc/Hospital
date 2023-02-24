@@ -1,12 +1,62 @@
-import React from "react";
+import { BACKEND_URL } from "appconfig";
+import axios from "axios";
+import { useRouter } from "next/router";
+import React, { ChangeEvent, useState } from "react";
 
-export default function  index  ()  {
+export default function  Index  ()  {
+   const router = useRouter();
+  const [credentials, setCredentials] = useState({
+    email: '',
+    password: '',
+  });
+  
+
+  const handleEmailChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setCredentials((prevCredentials) => ({
+      ...prevCredentials,
+      email: event.target.value,
+    }));
+  };
+
+  const handlePasswordChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setCredentials((prevCredentials) => ({
+      ...prevCredentials,
+      password: event.target.value,
+    }));
+  };
+
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    try {
+      axios
+        .post(BACKEND_URL+"login", credentials,{ headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json; charset=UTF-8'
+      }})
+        .then(response => {
+          if (response?.data && response.data.token) {
+            console.log(response.data)
+            localStorage.setItem('token', JSON.stringify(response.data))
+            router.push('/createPost');
+          }
+
+
+        })
+        .catch(error => {
+          console.log(error);
+        });
+      // Set user token in local storage or session storage
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
     <div
       className=" flex justify-center items:center"
       style={{ height: "100vh", alignItems: "center" }}
     >
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="flex flex-col items-center justify-center lg:justify-start">
           <div className="flex  flex-col m-auto text-left ml-2">
            
@@ -18,6 +68,7 @@ export default function  index  ()  {
         </div>
         <div className="mb-6">
           <input
+            value={credentials.email} onChange={handleEmailChange}
             type="text"
             className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
             id="exampleFormControlInput2"
@@ -27,6 +78,7 @@ export default function  index  ()  {
 
         <div className="mb-6">
           <input
+          value={credentials.password} onChange={handlePasswordChange}
             type="password"
             className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
             id="exampleFormControlInput2"
@@ -56,7 +108,7 @@ export default function  index  ()  {
         <div className="text-center lg:text-left">
           <div className="flex justify-center">
             <button
-              type="button"
+              type="submit"
               className="  outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center  hover:bg-blue-500 hover:text-white text-center"
             >
               Login
