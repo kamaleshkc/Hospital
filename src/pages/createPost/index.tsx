@@ -1,7 +1,7 @@
 import Sidebar from "components/Sidebar";
 import React, { useState } from "react";
 
-const index = () => {
+export default function Index () {
  
 
   return (
@@ -14,6 +14,6 @@ const index = () => {
    
   )
 }
-export default index;
+
 
 

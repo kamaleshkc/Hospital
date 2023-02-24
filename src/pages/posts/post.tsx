@@ -5,7 +5,7 @@ import Header from 'components/Header'
 import NavBar from 'components/NavBar'
 import React from 'react'
 
-const index = () => {
+export default function Index()  {
   return (
     <div>
        <Header/>
@@ -16,4 +16,3 @@ const index = () => {
   )
 }
 
-export default index
