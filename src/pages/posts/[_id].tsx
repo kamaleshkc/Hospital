@@ -12,8 +12,6 @@ const index = () => {
        <NavBar/>
        <Content/>
        <Footer/>
-
-
     </div>
   )
 }
